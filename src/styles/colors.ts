@@ -1,8 +1,9 @@
 export const Colors = {
-  PRIMARY: '#077945',
+  BUTTON: '#077945',
+  BUTTON_BORDER: '#14985C',
   BACKGROUND: '#13131A',
   BAR: '#1C1C24',
-  WHITE: '#FFFFFF',
-  LIGHT_GREY: '#818181',
-  RED: 'rgb(255, 69, 58)',
+  TEXT: '#FFFFFF',
+  INACTIVE: '#818181',
+  NOTIFICATION: 'rgb(255, 69, 58)',
 };

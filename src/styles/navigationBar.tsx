@@ -4,12 +4,12 @@ import {Colors} from './colors';
 const DarkTheme: Theme = {
   dark: true,
   colors: {
-    primary: Colors.WHITE,
+    primary: Colors.TEXT,
     background: Colors.BACKGROUND,
     card: Colors.BAR,
-    text: Colors.WHITE,
+    text: Colors.TEXT,
     border: Colors.BAR,
-    notification: Colors.RED,
+    notification: Colors.NOTIFICATION,
   },
 };
 
@@ -17,7 +17,7 @@ export const Dark = {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
-    buttonActive: Colors.WHITE,
-    buttonInactive: Colors.LIGHT_GREY,
+    buttonActive: Colors.TEXT,
+    buttonInactive: Colors.INACTIVE,
   },
 };
