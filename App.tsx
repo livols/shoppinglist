@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {TabNavigator} from './src/navigation/tabNavigator';
-import {Dark} from './src/styles/styles';
+import {Dark} from './src/styles/navigationBar';
 
 export default function App() {
   return (
